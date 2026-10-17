@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Anthony Chuong">
+    <meta name="description" content="Projects by Anthony Chuong">
+    <title>Projects | Anthony Chuong</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="page">
+
+        <main>
+            <h1>Projects</h1>
+
+            <article class="project">
+                
+                <img src="images/infoflow.png" alt="Screenshot of the InfoFlow platform">
+                <div>
+                    <h2>InfoFlow</h2>
+                    <p class="project-meta">Software Engineer · Aug 2026 – Present</p>
+                    <p>
+                        InfoFlow is a FERPA-compliant web platform for school counselors. I'm one of three engineers
+                        on the team. I own our end-to-end testing: two Playwright suites, written in TypeScript, that
+                        run automatically on every pull request against live preview deployments, so bugs get caught
+                        before they reach schools. I build with an AI coding agent under a strict human-review process:
+                        I review every change before it merges and keep the agent out of the most sensitive parts of
+                        the codebase, like database security rules and migrations. We're preparing for a pilot with
+                        school districts across Southern California.
+                    </p>
+                    <p class="tags">TypeScript | Playwright | CI/CD | Vercel</p>
+                </div>
+            </article>
+
+            <article class="project">
+                <img src="images/cosmos.png" alt="Screenshot of my COSMOS Unity game">
+                <div>
+                    <h2>COSMOS Game</h2>
+                    <p class="project-meta">UC San Diego COSMOS · Summer 2024</p>
+                    <p>
+                        In a four-week program at UCSD, my team designed and programmed a video game in Unity and C#.
+                        I built the AI behavior for the non-player characters, so enemies react to the player instead
+                        of following fixed paths. Halfway through, teammates got sick, so we cut the scope down to what
+                        we could finish well and presented a working game to faculty.
+                    </p>
+                    <p class="tags">C# | Unity | Game AI</p>
+                </div>
+            </article>
+        </main>
+
+        <nav class="side-nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+            <a href="contact.html">Contact</a>
+            <button id="theme-toggle" class="theme-btn">Dark mode</button>
+        </nav>
+
+    </div>
+</body>
+</html>
